@@ -1,0 +1,112 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #023047;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav button {
+  background: white;
+  color: #023047;
+  border: none;
+  border-radius: 8px;
+  margin: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background: #caf0f8;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+form input, form textarea {
+  width: 100%;
+  margin: 0.6rem 0;
+  padding: 0.7rem;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+form button {
+  background: #023047;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0077b6;
+}
+
+#portfolioSection {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#portfolioSection img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0077b6;
+  margin-bottom: 1rem;
+}
+
+#portfolioSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#portfolioSection li {
+  background: #e0fbfc;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+footer {
+  background: #023047;
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+}

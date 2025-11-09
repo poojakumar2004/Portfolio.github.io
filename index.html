@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Portfolio Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Personal Portfolio Builder</h1>
+    <nav>
+      <button id="homeBtn">🏠 Home</button>
+      <button id="createBtn">➕ Create Portfolio</button>
+      <button id="editBtn">✏️ Edit Portfolio</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Page -->
+    <section id="homeSection">
+      <h2>Welcome to Portfolio Builder!</h2>
+      <p>Create your own portfolio with photo, skills, and experience — all in your browser.</p>
+    </section>
+
+    <!-- Portfolio Form -->
+    <section id="formSection" class="hidden">
+      <h2 id="formTitle">Create Your Portfolio</h2>
+      <form id="portfolioForm">
+
+        <label>Profile Photo:</label>
+        <input type="file" id="photo" accept="image/*"><br>
+
+        <label>Name:</label>
+        <input type="text" id="name" required><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" required><br>
+
+        <label>Phone:</label>
+        <input type="text" id="phone" required><br>
+
+        <label>About You:</label>
+        <textarea id="about" required></textarea><br>
+
+        <label>Education:</label>
+        <textarea id="education" placeholder="e.g. BCA from XYZ University, 2025"></textarea><br>
+
+        <label>Experience:</label>
+        <textarea id="experience" placeholder="e.g. Intern at ABC Tech, Web Developer"></textarea><br>
+
+        <label>Skills (comma separated):</label>
+        <input type="text" id="skills" required><br>
+
+        <label>Projects (comma separated):</label>
+        <input type="text" id="projects" required><br>
+
+        <button type="submit" id="doneBtn">✅ Done</button>
+      </form>
+    </section>
+
+    <!-- Portfolio Display -->
+    <section id="portfolioSection" class="hidden">
+      <img id="photoDisplay" alt="Profile Photo">
+      <h2 id="nameDisplay"></h2>
+      <p id="aboutDisplay"></p>
+
+      <p><strong>Email:</strong> <span id="emailDisplay"></span></p>
+      <p><strong>Phone:</strong> <span id="phoneDisplay"></span></p>
+
+      <h3>Education</h3>
+      <p id="educationDisplay"></p>
+
+      <h3>Experience</h3>
+      <p id="experienceDisplay"></p>
+
+      <h3>Skills</h3>
+      <ul id="skillsDisplay"></ul>
+
+      <h3>Projects</h3>
+      <ul id="projectsDisplay"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
