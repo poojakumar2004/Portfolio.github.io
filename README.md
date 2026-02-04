@@ -1,1 +1,1 @@
-# Portfolio
+A portfolio is a personal collection of your work that shows your skills, projects, and achievements. It usually includes a short introduction, technical skills, academic or real-world projects, certifications, and contact details. A portfolio helps recruiters quickly understand your abilities beyond a resume.
